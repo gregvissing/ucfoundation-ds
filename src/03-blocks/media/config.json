@@ -1,0 +1,15 @@
+{
+  "context": {
+    "image": "https://source.unsplash.com/R1Le3TFwF3g/1060x400",
+    "alt": "A billboard which reads: 'Welcome to Utah'",
+    "caption": "An All-American Billboard for the state of Utah. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+  },
+  "variants": [
+    {
+      "name": "Reversed",
+      "context": {
+        "layout": "reversed"
+      }
+    }
+  ]
+}

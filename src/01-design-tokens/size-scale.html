@@ -1,0 +1,27 @@
+<article class="flow">
+  <h1>Size Scale</h1>
+  <table class="sizes-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Class</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for size in sizes %}
+      <tr>
+        <td>{{ size.name }}</td>
+        <td>{{ size.value }}px</td>
+        <td><code>.text-{{ size.name }}</code></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+
+  <h2>Example</h2>
+  {% for size in sizes %}
+    <p class="text-{{ size.name }}">Text size {{ size.name }} is around {{ size.value }}px</p>
+  {% endfor %}
+</article>

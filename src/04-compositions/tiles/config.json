@@ -1,0 +1,42 @@
+{
+  "context": {
+    "items": [
+      {
+        "title": "We do traditional",
+        "summary": "We can make billboards, brochures, inserts or even flyers. If you need to target your audience with the traditional methods, we’ve got you.",
+        "linkLabel": "Find out more",
+        "link": "#",
+        "tokens": {
+          "base": "bg-dark color-light",
+          "heading": "color-primary",
+          "link": "bg-slate color-primary",
+          "summary": "lg:text-500"
+        }
+      },
+      {
+        "title": "We do modern",
+        "summary": "We’ll get on Instagram, Twitch streams, YouTube or even TikTok. Let our team of digital media creatives craft you a killer campaign.",
+        "linkLabel": "Find out more",
+        "link": "#",
+        "tokens": {
+          "base": "bg-light color-dark",
+          "heading": "color-secondary",
+          "link": "bg-secondary color-light",
+          "summary": "lg:text-500"
+        }
+      },
+      {
+        "title": "We do bespoke packages to meet your goals",
+        "summary": "We get it: you’re not like other brands and you want to stand out. By working with us, you will walk away with a solid package that people will remember for decades.",
+        "linkLabel": "Find out more",
+        "link": "#",
+        "tokens": {
+          "base": "bg-tertiary color-dark",
+          "heading": "color-dark",
+          "link": "bg-dark color-light",
+          "summary": "lg:text-500"
+        }
+      }
+    ]
+  }
+}

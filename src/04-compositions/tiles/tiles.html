@@ -1,0 +1,13 @@
+<div class="tiles">
+  {% for item in items %}  
+    <article class="[ tile ] [ flow ] [ {{ item.tokens.base }} ]">
+      <h3 class="[ heading ] [ {{ item.tokens.heading }} ]" data-type="tertiary">{{ item.title }}</h3>
+      <p class="{{ item.tokens.summary }}">{{ item.summary }}</p>
+      <a href="{{ item.link }}" class="[ tile__link ] [ {{ item.tokens.link }} ]" aria-label="{{ item.linkLabel }}">
+        <svg fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="nonzero" d="M7 4.569L9.636 2 24 16 9.636 30 7 27.431 18.728 16z"/>
+        </svg>  
+      </a>
+    </article>
+  {% endfor %}
+</div>

@@ -1,0 +1,14 @@
+{
+  "context": {
+    "title": "We make cool ads",
+    "summary": "Whether you’re a tiny startup or a huge corporation: we’ve got your back, here at aperture.",
+    "button": {
+      "text": "Check out our stuff",
+      "url": "#"
+    },
+    "image": {
+      "src": "https://source.unsplash.com/1xnwIPb4-RE/1200x800",
+      "alt": "A billboard on a busy street reads: 'Dear London, creativity is a way of dreaming. Let’s keep dreaming'"
+    }
+  }
+}

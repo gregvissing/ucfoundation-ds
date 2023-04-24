@@ -1,0 +1,17 @@
+{
+  "context": {
+    "previewBG": "bg-dark",
+    "label": "A text field",
+    "type": "text",
+    "id": "my-lovely-field"
+  },
+  "variants": [
+    {
+      "name": "With textarea",
+      "context": {
+        "label": "A lovely textarea",
+        "type": "textarea"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "context": {
+    "title": "Check out our stuff",
+    "summary": "Here’s that classic selection of highly argued-about, internally, images that give you an art-directed narrow look into what we make so you can email us saying “how much for one of them?”",
+    "items": [
+      {
+        "image": "https://source.unsplash.com/R1Le3TFwF3g/1060x400",
+        "alt": "A billboard which reads: 'Welcome to Utah'",
+        "caption": "An All-American Billboard for the state of Utah. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+      },
+      {
+        "image": "https://source.unsplash.com/R1Le3TFwF3g/1060x400",
+        "alt": "A billboard which reads: 'Welcome to Utah'",
+        "caption": "An All-American Billboard for the state of Utah. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+        "layout": "reversed"
+      },
+      {
+        "image": "https://source.unsplash.com/R1Le3TFwF3g/1060x400",
+        "alt": "A billboard which reads: 'Welcome to Utah'",
+        "caption": "An All-American Billboard for the state of Utah. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+      }
+    ]
+  }
+}

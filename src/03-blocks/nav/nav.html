@@ -1,0 +1,9 @@
+<nav>
+  <ul class="nav" role="list">
+    {% for item in items %}
+      <li>
+        <a href="{{ item.url }}">{{ item.text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

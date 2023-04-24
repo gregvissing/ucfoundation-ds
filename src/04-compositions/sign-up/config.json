@@ -1,0 +1,22 @@
+{
+  "context": {
+    "title": "Sign up to the newsletter",
+    "summary": "It’s rubish, but if a few of you sign up, it’ll keep the directors off our back for a bit.",
+    "button": {
+      "text": "Get in touch!",
+      "url": "#"
+    },
+    "fields": [
+      {
+        "type": "text",
+        "id": "name",
+        "label": "Name"
+      },
+      {
+        "type": "email",
+        "id": "email",
+        "label": "Email"
+      }
+    ]
+  }
+}

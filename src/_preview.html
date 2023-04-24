@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CUBE CSS Design System</title>
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <style>
+      body {
+        padding: 2rem
+      }
+
+      .auto-grid {
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fill,
+          minmax(var(--auto-grid-min-size, 16rem), 1fr)
+        );
+        grid-gap: 1rem;
+      }
+      
+      .swatch {
+        border: 1px solid;
+        padding: 0.5rem;
+      }
+
+      .swatch__sample {
+        border: 1px solid;
+        height: 6rem;
+      }
+
+      .swatch dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .swatch dt {
+        font-weight: bold;
+      }
+
+      .swatch dt::after {
+        content: ":"
+      }
+
+      code {
+        font-size: 1.3em;
+      }
+      
+      .sizes-table {
+        table-layout: fixed;
+        border: 1px solid;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 40rem;
+      }
+
+      .sizes-table th,
+      .sizes-table td {
+        padding: 0.5rem;
+      }
+      
+      .sizes-table th + th,
+      .sizes-table td + td {
+        border-left: 1px solid;
+      }
+
+      .sizes-table th {
+        text-align: left;
+      }
+
+      .sizes-table td {
+        border-top: 1px solid;
+      }
+    </style>
+  </head>
+  <body class="{{ _target.context.previewBG }}">
+    {{ yield | safe }}
+  </body>
+</html>

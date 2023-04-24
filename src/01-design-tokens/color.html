@@ -1,0 +1,18 @@
+<h1>Color</h1>
+<div class="auto-grid">
+  {% for color in colors %}
+    <div class="[ swatch ] [ bg-light ]">
+      <div class="[ swatch__sample ] [ bg-{{ color.name }}" aria-hidden="true"></div>
+      <dl>
+        <dt>Name</dt>
+        <dd>{{ color.name }}</dd>
+        <dt>Hex</dt>
+        <dd>{{ color.value }}</dd>
+        <dt>BG Utility</dt>
+        <dd><code>bg-{{ color.name }}</code></dd>
+        <dt>Text Utility</dt>
+        <dd><code>bg-{{ color.name }}</code></dd>
+      </dl>
+    </div>
+  {% endfor %}
+</div>

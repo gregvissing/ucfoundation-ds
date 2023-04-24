@@ -1,0 +1,27 @@
+{
+  "context": {
+    "previewBG": "bg-dark",
+    "items": [
+      {
+        "text": "Home",
+        "url": "#"
+      },
+      {
+        "text": "Work",
+        "url": "#"
+      },
+      {
+        "text": "About",
+        "url": "#"
+      },
+      {
+        "text": "Studio",
+        "url": "#"
+      },
+      {
+        "text": "Contact",
+        "url": "#"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{% render '@site-head' %}
+<div class="region">
+  <div class="wrapper">
+    <article class="[ intro ] [ flow ]">
+      <h1 class="heading">{{ title }}</h1>
+      <p class="text-600 md:text-700">{{ summary }}</p>
+    </article>
+  </div>
+</div>
+<div class="pad-bottom-major">
+  <div class="[ wrapper ] [ flow ]">
+    {% for item in items %}
+      <figure class="[ media ] [ flow-space-major ]"{% if item.layout %} data-layout="{{ item.layout }}"{% endif %}>
+        <img class="media__image" alt="{{ item.alt }}" src="{{ item.image }}" />
+        <figcaption class="media__caption">{{ item.caption }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+</div>
+{% render '@sign-up' %}
+{% render '@cta' %}
+{% render '@site-foot' %}

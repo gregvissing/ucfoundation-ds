@@ -1,0 +1,17 @@
+<article class="[ sign-up ] [ region ] [ bg-dark color-light ]">
+  <div class="[ wrapper ] [ split-pair ]">
+    <div class="[ intro ] [ flow ]">
+      <h2 class="[ heading ] [ color-secondary ]" data-type="secondary">{{ title }}</h2>
+      <p class="text-600 md:text-700">{{ summary }}</p>
+    </div>
+    <div class="[ sign-up__form ] [ flow ]">
+      {% for field in fields %}
+      <div class="field">
+        <label for="{{ field.id }}">{{ field.label }}</label>
+        <input type="{{ field.type }}" id="{{ field.id }}" />
+      </div>
+      {% endfor %}
+      <a href="{{ button.url }}" class="button">{{ button.text }}</a>
+    </div>
+  </div>
+</article>

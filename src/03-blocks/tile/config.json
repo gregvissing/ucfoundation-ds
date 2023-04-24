@@ -1,0 +1,26 @@
+{
+  "context": {
+    "title": "We do traditional",
+    "summary": "We can make billboards, brochures, inserts or even flyers. If you need to target your audience with the traditional methods, we’ve got you.",
+    "linkLabel": "Find out more",
+    "link": "#",
+    "tokens": {
+      "base": "bg-dark color-light",
+      "heading": "color-primary",
+      "link": "bg-secondary",
+      "summary": "lg:text-500"
+    }
+  },
+  "variants": [
+    {
+      "name": "Different tokens applied",
+      "context": {
+        "tokens": {
+          "base": "bg-tertiary",
+          "heading": "color-slate",
+          "link": "bg-dark color-light"
+        }
+      }
+    }
+  ]
+}
